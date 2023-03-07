@@ -45,49 +45,41 @@
 gradle clean test
 ```
 
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/tmaksyutov_diplom_api/)
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/valekseevApi1//)
 
 Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать*</strong></code>.
 
 <p align="center">
-  <img src="images/screenshot/jenkins.png" alt="Jenkins" width="800">
+  <img src="images/screenshot/jenkins.jpg" alt="Jenkins" width="800">
 </p>
 
 После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
 значок *Allure Report*, кликнув по которому, откроется страница с сформированным html-отчетом.
 
-## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/tmaksyutov_diplom_api/allure/)
+## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/valekseevApi1/1/allure/)
 
 <p align="center">
-  <img src="images/screenshot/allure-report1.png" alt="allure-report1" width="900">
+  <img src="images/screenshot/allure-report.jpg" alt="allure-report1" width="900">
 </p>
 
-<p align="center">
-  <img src="images/screenshot/allure-report.png" alt="allure-report" width="900">
-</p>
 
-## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/17992)
+## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/20132)
 
 ### Основной дашборд
 
 <p align="center">
-  <img src="images/screenshot/dashboard.png" alt="dashboard" width="900">
+  <img src="images/screenshot/dashboard.jpg" alt="dashboard" width="900">
 </p>
 
 ### Список тестов с результатами прогона
 
 <p align="center">
-  <img src="images/screenshot/allure-testops-results.png" alt="dashboard" width="900">
+  <img src="images/screenshot/allure-testops-results.jpg" alt="dashboard" width="900">
 </p>
 
-### Тест-кейсы
-
-<p align="center">
-  <img src="images/screenshot/allure-testops-testcases.png" alt="testcase" width="900">
-</p>
 
 ## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
-<img title="Telegram Notifications" src="images/screenshot/notification.png">
+<img title="Telegram Notifications" src="images/screenshot/notification.jpg">
